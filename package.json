@@ -1,16 +1,12 @@
 {
-  "name": "sassdoc-theme-default",
-  "description": "SassDoc's default theme",
-  "title": "SassDoc Default Theme",
-  "author": "SassDoc team",
-  "version": "2.5.2",
+  "name": "boilerplate-sassdoc-theme",
+  "description": "SassDoc Theme for Imarc Boilerplate",
+  "title": "Boilerplate SassDoc Theme",
+  "author": "Imarc",
+  "version": "1.0.0",
   "keywords": [
     "sassdoc-theme"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/SassDoc/sassdoc-theme-default.git"
-  },
   "scripts": {
     "build": "npm run dist && npm run sass",
     "dist": "rm -rf dist; babel src -d dist",
