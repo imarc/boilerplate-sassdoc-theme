@@ -1,4 +1,4 @@
-<h3 class="item__sub-heading">Parameters</h3>
+<h3 class="item__sub-heading">Sass Parameters</h3>
 
 {% if item.parameter.length > 0 %}
 
