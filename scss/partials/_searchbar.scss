@@ -34,7 +34,9 @@
 .searchbar__field {
   border: none;
   padding: 0.5em;
+  font-family: $text-font-stack;
   font-size: 1em;
+  font-weight: 300;
   margin: 0;
   width: 100%;
   @include card(1);

@@ -37,11 +37,10 @@ $level-3: $level-2 + 2em;
     padding: 0.5em $level-3;
     display: block;
     text-decoration: none;
-    color: $black;
   }
 
   @include on-event {
-    background: $light-grey;
+     color: darken($water, 20%);
   }
 
   &.is-collapsed + * {
@@ -56,7 +55,7 @@ $level-3: $level-2 + 2em;
   padding: 1em $level-1;
 
   a {
-    font-weight: bold;
+    font-weight: 600;
   }
 }
 
@@ -133,7 +132,7 @@ $level-3: $level-2 + 2em;
   width: 100%;
   cursor: pointer;
   color: #999;
-  font-weight: bold;
+  font-weight: 600;
   margin: 0;
   transition: 0.15s ease-out;
 

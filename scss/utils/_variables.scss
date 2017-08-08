@@ -1,6 +1,6 @@
 /// Pink
 /// @type Color
-$pink: #dd5a6f;
+$pink: #ff675b;
 
 
 /// Purple
@@ -42,6 +42,10 @@ $light-grey: #e0e0e0;
 /// @type Color
 $medium-grey: #ddd;
 
+/// Water
+/// @type Color
+$water: #229ab7;
+
 
 /// Map of breakpoints for responsive design.
 /// @prop {Map} small [(max-width: 800px)] - small screens
@@ -80,7 +84,7 @@ $vertical-rhythm: 1.5rem;
 
 /// Text font stack
 /// @type List
-$text-font-stack: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+$text-font-stack: 'Gibson', 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 
 
 /// Code font stack

@@ -13,10 +13,20 @@ html {
  * Body rules
  */
 body {
-  font: 1em/1.35 $text-font-stack;
+  color: #414141;
+  font: 300 1em/1.4 $text-font-stack;
   overflow: auto;
   margin: 0;
 }
+
+
+// font-style: normal
+// font-variant: normal
+// font-weight: normal
+// font-stretch: normal
+// font-size: medium
+// line-height: normal
+// font-family: depends on user agent
 
 /**
  * Links
@@ -24,12 +34,26 @@ body {
 a {
   transition: 0.15s;
   text-decoration: none;
-  color: $primary-color;
+  color: $water;
 
   &:hover {
     &, code {
-      color: $black;
+      color: darken($water, 20%);
     }
+  }
+}
+
+a.button {
+  background-color: $water;
+  color: #FFF;
+  display: inline-block;
+  font-weight: 400;
+  padding: 0.4em 1em;
+  text-align: center;
+  margin-bottom: 2em;
+  &:hover,
+  &:focus {
+    background-color: darken($water, 15%);
   }
 }
 
@@ -71,7 +95,7 @@ table p {
     &::before {
       content: attr(data-label) ': ';
       text-transform: capitalize;
-      font-weight: bold;
+      font-weight: 600;
     }
 
     p {
@@ -79,3 +103,12 @@ table p {
     }
   }
 }
+
+/**
+ * Headings
+ */
+
+ h1, h2, h3, h4, h5 {
+  font-weight: 600;
+ }
+
